@@ -1,4 +1,4 @@
-ÑÑ# Diseño de Clases para Red Social Online
+# Diseño de Clases para Red Social Online
 
 ## Descripción del Proyecto
 
