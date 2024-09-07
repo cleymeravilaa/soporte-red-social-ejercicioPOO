@@ -1,3 +1,5 @@
+using System.Text;
+
 namespace MyApplication.Models
 {
 	public class Notification
@@ -8,10 +10,8 @@ namespace MyApplication.Models
 		private string recipientName;
 		private string recipientPhoneNumber;
 		
-		public Notification()
-		{
-			
-		}
+		private DateTime date;
+		
 		
 		public Notification(string subject, string content, string recipientEmail, string recipientName, string recipientPhoneNumber)
 		{
@@ -20,6 +20,7 @@ namespace MyApplication.Models
 			this.recipientEmail = recipientEmail;
 			this.recipientName = recipientName;
 			this.recipientPhoneNumber = recipientPhoneNumber;
+			this.date = DateTime.Now;
 		}
 		
 		// Metodos Getters y Setters
@@ -51,6 +52,22 @@ namespace MyApplication.Models
 		{
 			get {return recipientPhoneNumber;}
 			set {recipientPhoneNumber = value;}
+		}
+		
+		public DateTime Date
+		{
+			get {return date;}
+			set {date = value;}
+		}
+		
+		public override string ToString(){
+			StringBuilder sb = new StringBuilder();
+			sb.Append("-----------------------------------\n");
+			sb.Append("Fecha: " + this.date + "\n");
+			sb.Append("Subject: " + this.subject + "\n");
+			sb.Append("Content: " + this.content + "\n");
+			sb.Append("-------------------------------------");
+			return sb.ToString();
 		}
 	}
 }

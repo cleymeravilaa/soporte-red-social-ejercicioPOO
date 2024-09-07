@@ -12,3 +12,4 @@ C:\Users\CLEYMER\OneDrive\Documentos\soporte-red-social-app\src\C#\networking-ap
 C:\Users\CLEYMER\OneDrive\Documentos\soporte-red-social-app\src\C#\networking-app\obj\Debug\net8.0\networking-app.pdb
 C:\Users\CLEYMER\OneDrive\Documentos\soporte-red-social-app\src\C#\networking-app\obj\Debug\net8.0\networking-app.genruntimeconfig.cache
 C:\Users\CLEYMER\OneDrive\Documentos\soporte-red-social-app\src\C#\networking-app\obj\Debug\net8.0\ref\networking-app.dll
+C:\Users\CLEYMER\OneDrive\Documentos\soporte-red-social-app\src\C#\networking-app\obj\Debug\net8.0\networking-app.sourcelink.json

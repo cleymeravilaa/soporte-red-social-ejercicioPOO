@@ -8,7 +8,10 @@ namespace MyApplication.Models
 		private string biography;
 		private string profilePicture;
 
-		public Profile(){}
+		public Profile()
+		{
+			
+		}
 
 		public Profile(string personalWebsiteUrl, string location, DateTime birthDate, string biography, string profilePicture){
 			this.personalWebsiteUrl = personalWebsiteUrl;
@@ -47,6 +50,15 @@ namespace MyApplication.Models
 		{
 			get {return profilePicture;}
 			set {profilePicture = value;}
+		}
+		
+		public override string ToString(){
+			return $"Perfil: \n" +
+				   $"URL de mi página personal: {this.personalWebsiteUrl}\n" +
+				   $"Ubicación: {this.location}\n" +
+				   $"Fecha de nacimiento: {this.birthDate}\n" +
+				   $"Biografía: {this.biography}\n" +
+				   $"URL de mi foto: {this.profilePicture}\n";
 		}
 	}
 }

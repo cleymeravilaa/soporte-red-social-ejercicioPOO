@@ -10,15 +10,9 @@ namespace MyApplication.Models
 		protected User author;
 		protected List<Comment> comments;
 		protected DateTime date;
-		protected int id;
-		protected static int contadorId;
 		
-		private Post()
-		{
-			this.id = ++Post.contadorId;
-		}
 		
-		public Post(string title, string content, User author) : this()
+		public Post(string title, string content, User author) 
 		{
 			this.date = DateTime.Now;
 			this.author = author;
@@ -29,11 +23,6 @@ namespace MyApplication.Models
 		}
 		
 		// Metodos Getters y Setters
-		public int Id
-		{
-			get {return id;}
-			set {id = value;}
-		}
 		
 		public DateTime Date
 		{
@@ -63,6 +52,19 @@ namespace MyApplication.Models
 		{
 			get {return comments;}
 			set {comments = value;}
+		}
+		
+		public override string ToString(){
+			return $"----------------------------------\n"+
+				   $"Titulo: {this.title}\n" +
+				   $"Contenido: {this.content}\n" +
+				   $"Autor: {this.author.Username}\n" +
+				   $"Fecha: {this.date}\n";
+		}
+		
+		public virtual void AddComment(string text, User author){
+			Comment comment = new Comment(0, text, author, this);
+			this.comments.Add(comment);
 		}
 	}
 }
