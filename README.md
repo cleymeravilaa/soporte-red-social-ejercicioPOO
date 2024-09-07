@@ -2,7 +2,7 @@
 
 ## Descripción del Proyecto
 
-Este proyecto consiste en el diseño de clases en Java para una aplicación que sirve de soporte al funcionamiento de una red social online. La aplicación permite a los usuarios registrarse, crear perfiles, unirse a grupos, publicar artículos, comentar, enviar mensajes privados y recibir notificaciones.
+Este proyecto consiste en el diseño de clases en el lenguaje Java y en C sharp para una aplicación que sirve de soporte al funcionamiento de una red social online. La aplicación permite a los usuarios registrarse, crear perfiles, unirse a grupos, publicar artículos, comentar, enviar mensajes privados y recibir notificaciones.
 
 ## Características Principales
 
