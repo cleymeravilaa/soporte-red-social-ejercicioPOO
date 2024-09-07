@@ -1,0 +1,14 @@
+c:\Users\CLEYMER\OneDrive\Documentos\soporte-red-social-app\src\C#\networking-app\obj\Debug\net8.0\networking-app.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\CLEYMER\OneDrive\Documentos\soporte-red-social-app\src\C#\networking-app\obj\Debug\net8.0\networking-app.AssemblyInfoInputs.cache
+c:\Users\CLEYMER\OneDrive\Documentos\soporte-red-social-app\src\C#\networking-app\obj\Debug\net8.0\networking-app.AssemblyInfo.cs
+c:\Users\CLEYMER\OneDrive\Documentos\soporte-red-social-app\src\C#\networking-app\obj\Debug\net8.0\networking-app.csproj.CoreCompileInputs.cache
+C:\Users\CLEYMER\OneDrive\Documentos\soporte-red-social-app\src\C#\networking-app\bin\Debug\net8.0\networking-app.exe
+C:\Users\CLEYMER\OneDrive\Documentos\soporte-red-social-app\src\C#\networking-app\bin\Debug\net8.0\networking-app.deps.json
+C:\Users\CLEYMER\OneDrive\Documentos\soporte-red-social-app\src\C#\networking-app\bin\Debug\net8.0\networking-app.runtimeconfig.json
+C:\Users\CLEYMER\OneDrive\Documentos\soporte-red-social-app\src\C#\networking-app\bin\Debug\net8.0\networking-app.dll
+C:\Users\CLEYMER\OneDrive\Documentos\soporte-red-social-app\src\C#\networking-app\bin\Debug\net8.0\networking-app.pdb
+C:\Users\CLEYMER\OneDrive\Documentos\soporte-red-social-app\src\C#\networking-app\obj\Debug\net8.0\networking-app.dll
+C:\Users\CLEYMER\OneDrive\Documentos\soporte-red-social-app\src\C#\networking-app\obj\Debug\net8.0\refint\networking-app.dll
+C:\Users\CLEYMER\OneDrive\Documentos\soporte-red-social-app\src\C#\networking-app\obj\Debug\net8.0\networking-app.pdb
+C:\Users\CLEYMER\OneDrive\Documentos\soporte-red-social-app\src\C#\networking-app\obj\Debug\net8.0\networking-app.genruntimeconfig.cache
+C:\Users\CLEYMER\OneDrive\Documentos\soporte-red-social-app\src\C#\networking-app\obj\Debug\net8.0\ref\networking-app.dll

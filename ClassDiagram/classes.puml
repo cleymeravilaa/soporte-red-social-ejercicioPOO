@@ -1,0 +1,81 @@
+@startuml social network app
+
+class User {
+    - String username
+    - String  name
+    - String email
+    - String phoneNumber
+    - String password
+    - List<Group> groups
+    - Profile profile
+    - List<Post> posts
+    - List<User> personalContacts
+    - List<Post> markedPosts
+    - boolean isModerator
+    - Profile profile
+    - List<Notification> notifications
+}
+
+
+class Group {
+    - List<User> members
+    - List<User> admins
+    - List<Post> posts
+    - String name
+    - String description
+    - List<Grupo> subgroups
+}
+
+class Post {
+    - int id
+    - Date date
+    - User author
+    - String title 
+    - String content
+    - List<Comment> comments
+}
+
+class Article {
+    - String editorialStatus
+}
+
+class News{
+    - Date caducationDate
+}
+
+class Comment {
+    - int id
+    - Date date
+    - User author
+    - String text
+    - String editorialStatus
+}
+
+class Profile {
+    - String personalWebsiteUrl
+    - String location
+    - Date birthDate
+    - String biography
+    - String profilePicture
+}
+
+
+class Notification {
+    - String subject
+    - String recipientEmail
+    - String recipientName
+    - String recipientPhoneNumber
+    - String content
+}
+
+Post <|-- Article
+Post <|-- News
+
+User "1" --> "1" Profile
+User "1" --> "*" Notification
+User "1" --> "*" Post
+User "*" --> "*" Group
+Post "1" --> "*" Comment
+
+
+@enduml
